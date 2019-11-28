@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+<!--数据绑定  {{}}  mustache语法其中一种-->
+<view>what`s {{stu[0].name}}</view>
+
+<!-- 列表展示 wx:for -->
+<view wx:for="{{stu}}">{{item.name}}</view>
+<!-- 时间监听改变data  js中data变化时无法自动变化counter-->
+<button size='mini' open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取授权</button>
+<!-- 用于展示用户信息 -->
+<open-data type="userAvatarUrl"></open-data>
+<view>11111111111111111111111111111111111111111111111111111111111111111111111111111</view>

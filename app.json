@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/log/log",
+    "pages/profile/profile"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#FF5C00",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "测试程序",
+    "backgroundColor": "#F100FF",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "pay",
+        "iconPath": "images/renew.png",
+        "selectedIconPath": "images/renew_active.png"
+      },
+      {
+        "pagePath": "pages/log/log",
+        "text": "record",
+        "iconPath": "images/time.png",
+        "selectedIconPath": "images/time_active.png"
+      }
+    ],
+    "color": "#FFFFFFF",
+    "selectedColor": "#FFFF00"
+  }
+  
+}
